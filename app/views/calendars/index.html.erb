@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 
   <%= form_with model: @plan, url: calendars_path, class: 'form' do |f| %>
+=======
+<%= form_with model: @plan, url: calendars_path, class: 'form' do |f| %>
+>>>>>>> 6ca8521af3d20b7f5b4ad3f1dcf6720b0ff3bec6
     <%= f.label :日付を選択, class: 'label' %>
     <%= f.date_field :date, class: 'date-select' %>
     <%= f.label :予定を入力, class: 'label' %>
@@ -7,6 +11,10 @@
     <%= f.submit '保存' %>
   <% end %>
 
+<<<<<<< HEAD
+=======
+</div>
+>>>>>>> 6ca8521af3d20b7f5b4ad3f1dcf6720b0ff3bec6
   <div class='calendar'>
     <% @week_days.each do |day| %>
       <div class='item'>
